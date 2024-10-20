@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Flower Vault</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <% if (user) { %>
+      <h1>Welcome to The Flower Vault, <%= user.username %>!</h1>
+      <a class="button" href="/flowers/new">Add a Flower</a> 
+      or <a href="/flowers">All Flowers</a> 
+      or <a class="button" href="/auth/sign-out">Sign Out</a>
+    <% } else { %>
+      <h1>Welcome to The Flower Vault, guest.</h1>
+      <p>
+        <a class="button" href="/auth/sign-up">Sign up</a> 
+        or <a class="button" href="/auth/sign-in">Sign in</a>.
+      </p>
+    <% } %>
+    <p>An app for collecting your favorite flowers.</p>
+  </body>
+</html>

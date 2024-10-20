@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, label, input, button, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #4a4a4a; /* Default text color */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Soft green background */
+    background-image: url('https://example.com/nature-background.jpg'); /* Nature background image */
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #2e7d32; /* Dark green */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7); /* Soft shadow for depth */
+}
+
+/* Form styling */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Light, semi-transparent white */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for elevation */
+    max-width: 400px;
+    margin: 20px auto; /* Center the form */
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1.2em;
+    color: #6d4c41; /* Brownish color */
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #388e3c; /* Green focus border */
+}
+
+/* Button styling */
+button {
+    background-color: #388e3c; /* Earthy green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2e7d32; /* Darker green on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Link styling */
+a {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1em;
+    color: #388e3c; /* Green color */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}

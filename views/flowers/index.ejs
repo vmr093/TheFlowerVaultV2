@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowers Index</title>
+    <link rel="stylesheet" href="/stylesheets/style4.css" />
+  </head>
+  <body>
+    <h1>All Flowers</h1>
+    <a href="/flowers/new">Add New Flower</a>
+    <a href="/">Go Back</a>
+    <ul>
+      <% flowers.forEach(flower => { %>
+          <li>
+              <a href="/flowers/<%= flower._id %>"> <%= flower.name %> </a>
+          </li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

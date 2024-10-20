@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, p, a, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+    background-color: #e7f3fe; /* Soft sky blue background */
+    color: #34495e; /* Deep slate blue text */
+    padding: 20px;
+}
+
+/* Main heading style */
+h1 {
+    color: #2c3e50; /* Darker blue-gray for contrast */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #2980b9; /* Bright blue */
+}
+
+a:hover {
+    color: #3498db; /* Lighter blue on hover */
+}
+
+/* Form styling */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border: 2px solid #bdc3c7; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    max-width: 400px; /* Limit form width */
+    margin: 0 auto; /* Center form */
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 90%; /* Full width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #95a5a6; /* Medium gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Button styling */
+button {
+    background-color: #27ae60; /* Green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #219150; /* Darker green on hover */
+}
+.links {
+    text-align: center; /* Center the links */
+    margin-top: 20px; /* Add some space above the links */
+}
+
+.links a {
+    display: inline-block; /* Keep links inline */
+    margin: 0 10px; /* Add spacing between the links */
+    padding: 10px 15px; /* Add padding for button effect */
+    border: 2px solid #2980b9; /* Bright blue border */
+    border-radius: 5px; /* Rounded corners */
+    color: #2980b9; /* Bright blue text */
+    background-color: white; /* White background */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.links a:hover {
+    color: white; /* Change text color on hover */
+    background-color: #2980b9; /* Change background to blue on hover */
+}

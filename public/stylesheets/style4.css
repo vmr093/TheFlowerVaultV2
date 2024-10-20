@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, a, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove default list styles */
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Georgia', serif; /* Elegant font for nature theme */
+    background-color: #fff3e0; /* Soft peach background */
+    background-image: url('https://example.com/floral-background.jpg'); /* Optional floral background image */
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style for the main heading */
+h1 {
+    color: #d81b60; /* Bright pink color */
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8); /* Soft shadow for depth */
+    letter-spacing: 1px; /* Add some spacing between letters */
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin: 15px 0;
+    font-size: 1.3em;
+    color: #f57c00; /* Warm orange color */
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    border: 2px solid #f57c00; /* Matching border color */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, border-color 0.3s;
+}
+
+a:hover {
+    background-color: #f57c00; /* Orange background on hover */
+    color: white; /* Change text color on hover */
+    border-color: #d81b60; /* Darker pink border on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* List styling */
+ul {
+    padding: 0;
+}
+
+li {
+    margin: 10px 0; /* Spacing between list items */
+    border: 2px solid #4caf50; /* Bright green border */
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth background and transform transition */
+}
+
+li:hover {
+    background-color: rgba(76, 175, 80, 0.1); /* Light green on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    a {
+        font-size: 1em; /* Adjust link size for smaller screens */
+        padding: 8px 12px; /* Adjust padding for smaller screens */
+    }
+
+    li {
+        font-size: 0.9em; /* Smaller font for list items on mobile */
+    }
+}

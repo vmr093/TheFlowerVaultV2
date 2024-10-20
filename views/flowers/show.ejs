@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= flower.name %></title> <!-- Dynamic title based on flower name -->
+    <link rel="stylesheet" href="/stylesheets/style5.css" />
+  </head>
+  <body>
+    <h1><%= flower.name %></h1> <!-- Display flower name -->
+    
+    <p><strong>Gardening Difficulty:</strong> <%= flower.gardeningDifficulty %></p>
+    
+    <form action="/flowers/<%= flower._id %>?_method=DELETE" method="POST">
+        <button type="submit">Delete <%= flower.name %></button>
+    </form>
+    
+    <a href="/flowers/<%= flower._id %>/edit">Edit <%= flower.name %></a>
+    <a href="/flowers/">Back to Flowers</a>
+  </body>
+</html>

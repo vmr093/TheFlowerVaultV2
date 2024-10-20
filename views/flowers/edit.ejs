@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update a Flower</title>
+    <link rel="stylesheet" href="/stylesheets/style6.css" />
+  </head>
+  <body>
+    <a href="/flowers">Back to Flowers</a>
+    <h1>Edit your <%= flower.name %></h1>
+    <form action="/flowers/<%= flower._id %>?_method=PUT" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" name="name" value="<%= flower.name %>" required />
+      
+      <label for="gardeningDifficulty">Gardening Difficulty:</label>
+      <input type="text" name="gardeningDifficulty" placeholder="Gardening Difficulty" required />
+      
+      <button type="submit">Update Flower</button>
+    </form>
+  </body>
+</html>
+
+  
