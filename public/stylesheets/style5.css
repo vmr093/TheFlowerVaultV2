@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body, h1, p, a, form, button {
     margin: 0;
     padding: 0;
@@ -6,39 +6,39 @@ body, h1, p, a, form, button {
 }
 
 body {
-    font-family: 'Arial', sans-serif; /* Clean sans-serif font */
-    background-color: #f4f4f4; /* Light gray background for neutrality */
-    color: #333; /* Dark gray text for readability */
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
     line-height: 1.6;
     padding: 20px;
-    background-image: url('https://example.com/floral-background.jpg'); /* Add a floral background image */
+    background-image: url('https://example.com/floral-background.jpg'); 
     background-size: cover;
-    background-attachment: fixed; /* Parallax effect */
+    background-attachment: fixed; 
 }
 
-/* Style for the main heading */
+
 h1 {
-    color: #5D4C8A; /* Deep lavender for contrast */
+    color: #5D4C8A; 
     font-size: 2.5em;
     margin-bottom: 20px;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Soft shadow for depth */
-    border: 3px solid #F39C12; /* Bright orange border */
-    border-radius: 10px; /* Rounded corners */
-    background-color: rgba(255, 255, 255, 0.9); /* Light background for the heading */
-    padding: 10px; /* Space inside the border */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); 
+    border: 3px solid #F39C12; 
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 10px; 
 }
 
-/* Paragraph styling */
+
 p {
     margin: 10px 0;
     font-size: 1.2em;
-    color: #6A5B8A; /* Muted lavender for paragraphs */
+    color: #6A5B8A; 
 }
 
-/* Button styling */
+
 button {
-    background-color: #E74C3C; /* Soft red for the delete button */
+    background-color: #E74C3C; 
     color: white;
     padding: 10px 15px;
     border: none;
@@ -49,52 +49,52 @@ button {
 }
 
 button:hover {
-    background-color: #C0392B; /* Darker red on hover */
-    transform: scale(1.05); /* Slight scale effect on hover */
+    background-color: #C0392B; 
+    transform: scale(1.05); 
 }
 
-/* Link styling */
+
 a {
     display: inline-block;
     margin: 15px 0;
     font-size: 1.2em;
-    color: #2980B9; /* Soft blue color for links */
+    color: #2980B9; 
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.9); 
     transition: background-color 0.3s, color 0.3s;
 }
 
 a:hover {
-    background-color: #2980B9; /* Blue background on hover */
-    color: white; /* Change text color on hover */
+    background-color: #2980B9; 
+    color: white; 
 }
 
-/* Additional floral accents */
+
 h1 {
-    border-bottom: 3px solid #F39C12; /* Bright orange underline for the heading */
+    border-bottom: 3px solid #F39C12; 
 }
 
 p {
-    color: #6A5B8A; /* Muted lavender for gardening difficulty text */
+    color: #6A5B8A; 
 }
 
-/* Floral-themed link styles */
+
 a {
-    background-color: #F1C40F; /* Bright yellow for links */
+    background-color: #F1C40F; 
 }
 
 a:hover {
-    background-color: #F39C12; /* Darker yellow-orange on hover */
+    background-color: #F39C12; 
 }
 
-/* Floral border for list items */
+
 li {
-    border: 2px solid #8E44AD; /* Purple border for list items */
+    border: 2px solid #8E44AD; 
     border-radius: 5px;
     padding: 10px;
     margin: 10px 0;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 /* Responsive design */
@@ -104,6 +104,6 @@ li {
     }
 
     a, button {
-        font-size: 1em; /* Adjust sizes for smaller screens */
+        font-size: 1em; 
     }
 }
