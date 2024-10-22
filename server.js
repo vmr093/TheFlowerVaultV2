@@ -130,6 +130,6 @@ app.use("/auth", authController);
   
 
 
-app.listen(4000, () => {
+app.listen(port, () => {
   console.log("Listening on port 4000");
 });
