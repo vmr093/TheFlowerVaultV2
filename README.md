@@ -28,7 +28,8 @@ This project utilizes the following resources:
 - MongoDB
 - EJS
 - Node.js
-- Heroic
+- Heroku
+- ChatGPT
 
 ## Future Iterations
 
